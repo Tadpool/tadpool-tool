@@ -1,4 +1,4 @@
-:tadp
+:tadp2
 @echo off
 echo Tadpool Tool v0.2 DEV for Windows
 set /p command=Enter Command Here>
