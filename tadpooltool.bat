@@ -1,6 +1,6 @@
-:tadp2
+:tadp
 @echo off
-echo Tadpool Tool v0.2 DEV for Windows
+echo Tadpool Tool v0.2 for Windows
 set /p command=Enter Command Here>
 if %command%==log goto :log
 if %command%==help goto :help
@@ -15,6 +15,7 @@ cls
 echo Creating Log...
 cls
 echo Log Created >> log.txt
+goto :tadp
 :help
 echo Tadpool Help v0.2 DEV
 echo Commands:
