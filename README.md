@@ -9,4 +9,4 @@ It needs to be updated now and then
 ## v0.2
 
 # Latest Version (Pre-release)
-## v0.2 DEV
+## v0.3 DEV
