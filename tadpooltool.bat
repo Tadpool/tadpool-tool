@@ -2,11 +2,10 @@
 @echo off
 echo Tadpool Tool v0.3 DEV for Windows
 set /p command=Enter Command Here>
-if %command%==log goto :log
-if %command%==help goto :help
-if %command%==tad goto :tad
-if %command%==exit exit
-if %command%==kill exit
+if %command%==xnowlog goto :log
+if %command%==xnowhelp goto :help
+if %command%==xnowtad goto :tad
+if %command%==xnowexit exit
 :log
 echo Creating Log.
 timeout 1
@@ -21,15 +20,10 @@ goto :tadp
 :help
 echo Tadpool Help v0.2 DEV
 echo Commands:
-echo log - Makes a LOG
-echo tad - prints out tad
-echo exit - exits Tadpool Tool
-echo kill - exits Tadpool Tool
-pause
-cls
-goto :tadp
-:tad
-echo tad
+echo xnowlog - Makes a LOG
+echo xNow does not support the tad command
+echo xnowexit - exits Tadpool Tool xNow
+echo xNow does not support the kill command
 pause
 cls
 goto :tadp
