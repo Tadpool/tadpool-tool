@@ -6,7 +6,7 @@ Tadpool uses Tadpool Tool for programming and is made in Batch!
 It needs to be updated now and then
 
 # Latest Version (Release)
-## v0.3
+## v0.4 (Upcoming)
 
 # Latest Version (Pre-release)
 ## v0.4 DEV
